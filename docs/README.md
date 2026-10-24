@@ -1,4 +1,4 @@
-# Kanting frontend (plain HTML + CSS + JavaScript)
+# TrainWise AI frontend (plain HTML + CSS + JavaScript)
 No React, no Node, no build step.
 
 1. Start the Flask backend (port 5000).

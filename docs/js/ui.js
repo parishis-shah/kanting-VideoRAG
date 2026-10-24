@@ -15,7 +15,7 @@ function renderStatus() {
   const { stats, connected } = state;
   const ago = !stats.lastIndexed ? 'never' : 'just now';
   $('status').innerHTML = `
-    <div class="flex items-baseline gap-2"><a href="index.html" class="font-medium text-xl">Kanting</a><span class="text-sm text-gray-500 font-light">看听</span></div>
+    <div class="flex items-baseline gap-2"><a href="index.html" class="font-medium text-xl">TrainWise AI</a></div>
     <div class="flex items-center gap-6">
       <div class="flex items-center gap-4 text-sm text-gray-600 font-light">
         <span><b class="text-gray-900 font-medium">${stats.videoCount}</b> videos</span><span class="text-gray-300">•</span>
